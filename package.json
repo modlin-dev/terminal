@@ -1,5 +1,5 @@
 {
-  "name": "@modlin-dev/terminal",
+  "name": "@modlin.dev/terminal",
   "main": "index.ts",
   "module": "index.ts",
   "type": "module",
@@ -20,7 +20,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "invalid"
+    "url": "https://github.com/modlin-dev/terminal.git"
   },
   "keywords": [
     "Terminal",
