@@ -9,6 +9,9 @@
   "peerDependencies": {
     "typescript": "^5.0.0"
   },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
   "description": "Terminal utilities for customization and more",
   "version": "1.0.0",
   "dependencies": {
