@@ -19,7 +19,7 @@
     "undici-types": "^5.28.2"
   },
   "scripts": {
-    "test": "bun run index.ts"
+    "test": "bun run index.test.js"
   },
   "repository": {
     "type": "git",
