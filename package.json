@@ -1,5 +1,5 @@
 {
-  "name": "@modlin-dev/terminal",
+  "name": "@modlin.dev/terminal",
   "main": "index.ts",
   "module": "index.ts",
   "type": "module",
@@ -9,6 +9,9 @@
   "peerDependencies": {
     "typescript": "^5.0.0"
   },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
   "description": "Terminal utilities for customization and more",
   "version": "1.0.0",
   "dependencies": {
@@ -16,11 +19,11 @@
     "undici-types": "^5.28.2"
   },
   "scripts": {
-    "test": "bun run index.ts"
+    "test": "bun run index.test.js"
   },
   "repository": {
     "type": "git",
-    "url": "invalid"
+    "url": "https://github.com/modlin-dev/terminal.git"
   },
   "keywords": [
     "Terminal",
